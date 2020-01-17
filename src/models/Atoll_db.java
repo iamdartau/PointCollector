@@ -16,7 +16,7 @@ public class Atoll_db {
     public static void createConnection39() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         connect_39 = DriverManager.getConnection(conStrDB_39,
-                "e2e_user", "v4U12Fl7Gb0s37vB");
+                "user", "password");
     }
 
     static {
@@ -35,7 +35,7 @@ public class Atoll_db {
     public static void createConnection_42() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         connect_42 = DriverManager.getConnection(conStr_42,
-                "e2e_user", "v4U12Fl7Gb0s37vB");
+                "user", "password");
     }
 
     static {
@@ -55,7 +55,7 @@ public class Atoll_db {
     public static void createConnection_43() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         connect_43 = DriverManager.getConnection(conStr_43,
-                "e2e_user", "v4U12Fl7Gb0s37vB");
+                "user", "password");
     }
 
     static {
